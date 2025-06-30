@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-add-task',
+  selector: 'app-new-task',
   imports: [],
-  templateUrl: './add-task.component.html',
-  styleUrl: './add-task.component.scss',
+  templateUrl: './new-task.component.html',
+  styleUrl: './new-task.component.scss',
 })
 export class AddTaskComponent {
   onAddTask() {}
