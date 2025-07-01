@@ -27,11 +27,7 @@ export class TasksComponent {
 
   onCompleteTask(id: string) {}
 
-  onCancelAddTask() {
-    this.isAddingTask = false;
-  }
-
-  onAddTask(taskData: NewTaskData) {
+  onCloseAddTask() {
     this.isAddingTask = false;
   }
 }
